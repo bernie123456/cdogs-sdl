@@ -50,16 +50,3 @@ cache:
 artifacts:
   - path: /.\C-Dogs*.exe/
   - path: /.\C-Dogs*.zip/
-
-deploy:
-  provider: GitHub
-  description: ''
-  auth_token:
-    secure: Ap9XXGG/1cyV9hpat7EaYxZHBt/VWdH82Bx+nIugdJ1Dh3I9e8OP4L/IXkadUjdR
-  prerelease: false
-  force_update: true 	#to be in piece with Travis CI
-  on:
-    appveyor_repo_tag: true
-
-after_deploy:
-  - .\build\appveyor\butler.bat

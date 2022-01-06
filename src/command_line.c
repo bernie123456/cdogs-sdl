@@ -41,7 +41,7 @@
 
 void PrintTitle(void)
 {
-	printf("C-Dogs SDL %s\n", CDOGS_SDL_VERSION);
+	printf("High-Tech Infantry %s\n", CDOGS_SDL_VERSION);
 	printf(
 		"SDL version %d.%d.%d\n", SDL_MAJOR_VERSION, SDL_MINOR_VERSION,
 		SDL_PATCHLEVEL);

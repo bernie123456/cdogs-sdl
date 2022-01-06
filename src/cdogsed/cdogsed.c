@@ -1239,7 +1239,7 @@ int main(int argc, char *argv[])
 	}
 
 	LogInit();
-	printf("C-Dogs SDL Editor\n");
+	printf("High-Tech Infantry Editor\n");
 
 	if (SDL_Init(SDL_INIT_TIMER | SDL_INIT_VIDEO) != 0)
 	{
